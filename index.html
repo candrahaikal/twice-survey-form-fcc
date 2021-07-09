@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Twice Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="title">Twice Survey Form</h1>
+        <p id="description">Please fill the form, Thank you!</p>
+    </header>
+
+
+    <form id="survey-form">
+
+        <div class="form-grup">
+            <label for="name" id="name-label">Nama</label>
+            <input type="text" id="name" class="form-control" placeholder="Masukkan nama" required>
+        </div>
+
+        <div class="form-grup">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Masukkan email" required>
+        </div>
+
+        <div class="form-grup">
+            <label for="number" id="number-label">Umur</label>
+            <input type="number" id="number" class="form-control" placeholder="Masukkan umur" min="15" max="40">
+        </div>
+
+        <div class="form-grup">
+            <p class="left-text">Tau TWICE darimana?</p>
+            <select name="tau" id="dropdown" class="form-control">
+                <option value="">Acara TV</option>
+                <option value="">Kenalan/Teman</option>
+                <option value="">Youtube</option>
+                <option value="">Tiktok</option>
+                <option value="">Sumber lain</option>
+            </select>
+        </div>
+
+        <div class="form-grup">
+            <p class="left-text">Apa album favoritmu? (boleh lebih dari 1)</p>
+            <label>
+                <input type="checkbox" class="checkbox-input" name="member" value="ny">Twicecoaster <br>
+            </label>
+            <label>
+                <input type="checkbox" class="checkbox-input" name="member" value="jy">Twicetagram <br>
+            </label>
+            <label>
+                <input type="checkbox" class="checkbox-input" name="member" value="mm">Yes or Yes <br>
+            </label>
+            <label>
+                <input type="checkbox" class="checkbox-input" name="member" value="sn">Fancy You<br>
+            </label>
+            <label>
+                <input type="checkbox" class="checkbox-input" name="member" value="jh">Feel Special <br>
+            </label>
+            <label>
+                <input type="checkbox" class="checkbox-input" name="member" value="mn">More and More <br>
+            </label>
+            <label>
+                <input type="checkbox" class="checkbox-input" name="member" value="dh">Eyes Wide Open<br>
+            </label>
+            <label>
+                <input type="checkbox" class="checkbox-input" name="member" value="cy"/>Cry for Me<br>
+            </label>
+            <label>
+                <input type="checkbox" class="checkbox-input" name="member" value="ty"/>Taste of Love
+            </label>
+        </div>
+
+        <div class="form-grup">
+            <p class="left-text">Siapa member favoritmu?</p>
+            <label>
+                <input type="radio" class="radio-input" name="member" value="ny">Nayeon <br>
+            </label>
+            <label>
+                <input type="radio" class="radio-input" name="member" value="jy">Jeongyeon <br>
+            </label>
+            <label>
+                <input type="radio" class="radio-input" name="member" value="mm">Momo <br>
+            </label>
+            <label>
+                <input type="radio" class="radio-input" name="member" value="sn">Sana <br>
+            </label>
+            <label>
+                <input type="radio" class="radio-input" name="member" value="jh">Jihyo <br>
+            </label>
+            <label>
+                <input type="radio" class="radio-input" name="member" value="mn">Mina <br>
+            </label>
+            <label>
+                <input type="radio" class="radio-input" name="member" value="dh">Dahyun <br>
+            </label>
+            <label>
+                <input type="radio" class="radio-input" name="member" value="cy"/>Chaeyoung <br>
+            </label>
+            <label>
+                <input type="radio" class="radio-input" name="member" value="ty"/>Tzuyu
+            </label>
+        </div>
+
+        <div class="form-grup">
+            <p class="left-text">Ada komentar atau saran?</p>
+            <textarea name="comment" id="comments" cols="5" rows="5" placeholder="Masukkan di sini yaa..."></textarea>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+
+        
+    </form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
+
+
